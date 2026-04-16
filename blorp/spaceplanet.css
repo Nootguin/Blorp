@@ -1,0 +1,201 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0;
+    border: 0;
+}
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4e2d7f;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 0px;
+}
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4e2d7f;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 5px;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #4e2d7f;
+  color: #FFFFFF;
+
+}
+
+nav a {
+    font-family: "Audiowide", sans-serif;
+    color: #f6f6f6;
+    padding:10px 10px;  /* horizontal padding, vertical padding */
+    text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #7462ce;
+}
+
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  padding-top: 30px;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* background color to dropdown links */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Shows the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.homepage {
+  background-image: url("purple.jpg");
+  text-align: center;
+  color:rgb(255, 255, 255);
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.background {
+  background-color: #ffffff;
+}
+.blurb{
+  background-color: #4e2d7f;
+  padding: 5px;
+  color:#FFFFFF
+}
+
+.content {
+  color: black;
+  padding: 10px;
+  padding-bottom: 530px;
+}
+.pictures {
+  border:solid 7px #000000;
+}
+.pad {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ultrapad {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+
+th {
+  border:solid 3px #000000;
+}
+td {
+  text-align: center;
+}
+
+.map-image {
+  padding: 5px;
+  padding-right: 10px;
+  float:left;
+}
+
+.map {
+  background-color: #4e2d7f
+}
+
+.container {
+  display: flex;
+}
+
+.dealbutton {
+  background-color: #4e2d7f;
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 525px 
+}
+
+.dealbutton:hover {
+  background-color: #7462ce;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4e2d7f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a lighter purple color */
+input[type=submit]:hover {
+  background-color: #7462ce;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
