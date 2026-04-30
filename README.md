@@ -1,3 +1,3 @@
 # Blorp - Website-Project
 
-This is my first ever website that I created for a web dev unit.
+This is my first ever website that I created for a web dev assignment using HTML and CSS.
